@@ -1,0 +1,5 @@
+city = open('Cities.txt', 'r+')
+print(city.readable())
+print(city.readline())
+city.write('\nDubia - India')
+city.close()
